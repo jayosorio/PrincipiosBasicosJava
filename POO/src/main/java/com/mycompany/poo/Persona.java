@@ -15,4 +15,17 @@ public class Persona {
         int edad;
         String estado;
         boolean estudio;
+        
+        //void cumple(){
+        //    System.out.println("La persona llamada " + nombre + " ha cumplido " + (edad + 1));
+        //}
+        
+        int cumple(){
+            return edad + 1;
+        }
+        
+        void cambioEstado(String nuevoEstado){
+            estado = nuevoEstado;
+            System.out.println("El nuevo estado es: " + nuevoEstado);
+        }
     }

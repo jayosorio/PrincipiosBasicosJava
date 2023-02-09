@@ -31,5 +31,14 @@ public class Main {
         
         persona1.apellido = "osorio meza";
         System.out.println("persona1 = " + persona1.apellido);
+        
+        System.out.println("La edad de Maria es " + persona2.edad);
+        persona2.cumple();
+        
+        System.out.println(persona2.cumple());
+        
+        System.out.println(persona2.estado);
+        persona2.cambioEstado("casado");
+        System.out.println(persona2.estado);
     }
 }
