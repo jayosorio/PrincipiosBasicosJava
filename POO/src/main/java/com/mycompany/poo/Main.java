@@ -4,6 +4,8 @@
  */
 package com.mycompany.poo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author jayos
@@ -40,5 +42,24 @@ public class Main {
         System.out.println(persona2.estado);
         persona2.cambioEstado("casado");
         System.out.println(persona2.estado);
+        
+        ArrayList<String> Lista = new ArrayList<String>();
+        
+        Lista.add("manzana");
+        Lista.add("pera");
+        Lista.add("uvas");
+        Lista.add("banano");
+        
+        System.out.println(Lista);
+        
+        Lista.add("guayaba");
+        System.out.println(Lista);
+        
+        Lista.remove("pera");
+        System.out.println(Lista);
+        
+        Lista.clear();
+        System.out.println(Lista);
+            
     }
 }
